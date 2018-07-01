@@ -1,0 +1,18 @@
+<app-single-question
+    [question]="test.questions[currentQuestion]"
+    [answer]="test.selections[currentQuestion]"
+    (answered)="test.selections[currentQuestion] = $event"
+></app-single-question>
+<nav>
+    <i class="fas fa-chevron-left" (click)="prev()" *ngIf="currentQuestion > 0"></i>
+    <input
+        type="number"
+        [value]="currentQuestion+1"
+        (change)="gotoQuestion($event.target.value)"
+        min="1"
+        max="{{test.questions.length}}"> / {{test.questions.length}}
+    <i class="fas fa-chevron-right"
+       (click)="next()"
+       [ngClass]="{disabled: currentQuestion >= test.questions.length-1}"
+       ></i>
+</nav>

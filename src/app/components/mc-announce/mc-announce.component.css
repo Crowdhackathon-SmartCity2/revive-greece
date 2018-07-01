@@ -1,0 +1,12 @@
+span {
+    width: 25%;
+    margin-right: 4%;
+}
+h5 {
+    display: inline-block;
+    width: 70%;
+}
+button {
+    position: absolute;
+    right:30px;
+}

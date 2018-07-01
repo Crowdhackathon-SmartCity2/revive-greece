@@ -1,0 +1,28 @@
+/* i{
+    border: solid 1px black;
+    background-color: aquamarine;
+} */
+div.label{
+    position:fixed;
+}
+p{
+    padding-top:20px;
+}
+.options {
+    list-style: none;
+    padding: 0;
+}
+
+.options li {
+    margin-bottom: 16px;
+    display: block;
+    position: relative;
+    top: -5px;
+    padding: 7px 8px;
+}
+.options li.selected {
+    background-color: white;
+    color: #03a9f4;
+    padding: 8px;
+    border-radius: 8px;
+}

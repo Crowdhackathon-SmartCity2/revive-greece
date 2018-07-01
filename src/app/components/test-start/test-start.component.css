@@ -1,0 +1,68 @@
+.w-1-1, .w-1-2, .w-1-3 {
+    text-align: center;
+    display: inline-block;
+    margin: 12px 4px;
+}
+.w-1-1 {
+    width: 90%;
+}
+.w-1-2 {
+    width: calc( 45% - 24px );
+}
+.w-1-3 {
+    width: calc( 33% - 24px );
+}
+
+a.selected, .goButton {
+    background-color: white;
+    padding: 8px;
+    border-radius: 16px 0;
+    color: #03a9f4;
+}
+.goButton {
+    color: #ff5722;
+}
+a {
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.button {
+    position: relative;
+    vertical-align: top;
+    width: 100%;
+    height: 60px;
+    padding: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+    background: #34698b;
+    border: 0;
+    border-bottom: 2px solid #2475ab;
+    cursor: pointer;
+    -webkit-box-shadow: inset 0 -2px #2475ab;
+    box-shadow: inset 0 -2px #2475ab;
+  }
+  
+  .button:active {
+    top: 1px;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+
+  h1 {
+    text-align: center;
+    -webkit-text-stroke: white 1px;
+    color: #03a9f4;
+  }
+
+  h5 {
+    margin-bottom: 0;
+    border-bottom: 1px solid;
+    width: calc( 100% - 16px );
+    font-style: italic;
+  }

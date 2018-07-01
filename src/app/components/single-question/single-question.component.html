@@ -1,0 +1,14 @@
+<!-- <div class="label">{{q.num}}</div> -->
+<p>{{q.text}}</p>
+<p class="center" *ngIf="q.image">
+  <img [src]="q.image">
+</p>
+<ul class="options"> 
+  <li *ngFor="let opt of q.options" (click)="optionSelect(opt)" [ngClass]="(opt.label == selectedLabel)?'selected':''">
+    <span>{{opt.label}}</span>.
+    <i class="fas fa-check"
+       [ngStyle]="{visibility: (opt.label == selectedLabel)?'visible':'hidden'}"
+    ></i>
+    {{opt.text}}
+  </li>
+</ul>

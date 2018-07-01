@@ -1,0 +1,65 @@
+
+body {
+    width:100vw;
+    height:100vh;
+    background-color: #03a9f4;
+    color: black;
+	font-family: sans-serif;
+    color: white;
+    font-size: 1.25em;
+    overflow: hidden;
+}
+app-root {
+    width:100hw;
+    height:calc(100vh - 16px);
+    display:block;
+}
+app-mc-test {
+    display:block;
+    height:calc(100vh - 16px);
+}
+
+/* Luiza Version *//*
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+   
+    }
+    
+    .container {
+    margin: 20px auto;
+    width:400px;
+    height:400px;
+    background-color:#0f75bc;
+    display:grid;
+    grid-template-columns: 200px 200px;
+    grid-row: auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    }
+    .box { 
+    background-color:#87bade;
+    padding:20px;
+    border-radius:10px;
+    color:#fff;
+    align-items:center;
+    justify-content:center;
+    display:flex; 
+    flex-direction: column;
+    font-size:40px;
+    font-family:sans-serif;
+    transition: 0.3s;
+   
+    }
+   
+    .box:hover {
+    background-color:#f8ac95;
+    opacity: 1;
+    }
+    
+    i {
+    padding: 10%;
+    }
+/**/

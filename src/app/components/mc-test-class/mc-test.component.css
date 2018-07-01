@@ -1,0 +1,7 @@
+nav i {
+    font-size: 3em;
+}
+
+.disabled {
+    opacity: 0.5;
+}

@@ -1,0 +1,22 @@
+<div class="head">
+    <span>{{test.questions[currentQuestion].num}}</span>
+    <i class="fab category" [ngClass]="categoryClass(test.questions[currentQuestion].category)"></i>
+</div>
+<div class="question">
+    <app-single-question
+        [question]="test.questions[currentQuestion]"
+        [answer]="test.selections[currentQuestion]"
+        (answered)="test.selections[currentQuestion] = $event"
+    ></app-single-question>
+</div>
+<nav>
+    <i  class="fas fa-chevron-left" 
+        (click)="prev()"
+        [ngClass]="{disabled: currentQuestion <= 0}"
+    ></i>
+    <span><i class="fas fa-home"></i></span>
+    <i class="fas fa-chevron-right"
+       (click)="next()"
+       *ngIf="currentQuestion < test.questions.length-1"
+    ></i>
+</nav>

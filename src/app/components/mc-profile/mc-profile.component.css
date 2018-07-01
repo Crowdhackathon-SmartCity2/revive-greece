@@ -1,0 +1,18 @@
+input {
+    position: absolute;
+    left:90px;
+}
+button{
+    position:absolute;
+    right: 50px;
+    width: 40px;
+    height: 40px;
+}
+h2 {
+    text-align: center;
+}
+span {
+    position: absolute;
+    top:222px;
+    right:100px;
+}
