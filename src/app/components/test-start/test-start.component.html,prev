@@ -1,9 +1,7 @@
 <div>
   <div class="test-in-progress" *ngIf="currentTest"><!-- ng if test is in progress -->
-    <h5>There is already a test in progress, what do you want to do?</h5>
-
-    <a href class="w-1-1 selected">Continue</a>
-    <a href class="w-1-1 selected" (click)="newTest()">New Test</a>
+    <a href class="w-1-1" class="button">Continue</a>
+    <a href class="w-1-1" class="button" (click)="newTest()">New Test</a>
   </div>
   <div class="new-test-options" *ngIf="!currentTest"><!-- ng if no test in progress (i.e. or if new test is clicked) -->
     <div>
@@ -36,7 +34,4 @@
         <a href class="w-1-1 goButton">Go!</a>
     </div>
   </div>
-  <footer *ngIf="currentTest">
-    <img src="assets/revive-logo.png">
-  </footer>
 </div>

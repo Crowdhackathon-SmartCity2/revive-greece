@@ -30,38 +30,59 @@ export class McTestComponent implements OnInit {
         ]
       }, {
         num: 16,
-        text: 'ogi gpsoih segoih egrogieh',
+        text: 'Which one makes the element look like a circle?',
+        category: 'css',
         image: undefined,
         options: [
           {
             label: 'A',
-            text: 'egogjs ergergserg'
+            text: 'border: 50%;'
           },
           {
             label: 'B',
-            text: 'aofiejwoieajf awoeifjawo'
+            text: 'border-radius: 50%;'
           },
           {
             label: 'C',
-            text: 'tack'
+            text: 'border-radius: 100%;'
           }
         ]
       }, {
         num: 17,
-        text: 'oierhoa apwfeoihf poiweh fpoiiaowehfoiwfh',
+        text: 'Which tags make sense inside a ul?',
+        category: 'html',
         image: undefined,
         options: [
           {
             label: 'A',
-            text: 'oierg jser psoerigjseiorj'
+            text: 'ol'
           },
           {
             label: 'B',
-            text: 'hiau foiwuehf aiwef paowieh'
+            text: 'tr'
           },
           {
             label: 'C',
-            text: 'sekrjg soseirjgsoeir'
+            text: 'li'
+          }
+        ]
+      }, {
+        num: 18,
+        text: 'Which css rule is used to set the distance between border and content?',
+        category: 'css',
+        image: undefined,
+        options: [
+          {
+            label: 'A',
+            text: 'margin'
+          },
+          {
+            label: 'B',
+            text: 'padding'
+          },
+          {
+            label: 'C',
+            text: 'outline'
           }
         ]
       }

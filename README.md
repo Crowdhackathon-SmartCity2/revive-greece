@@ -1,9 +1,13 @@
-# REviveSkeleton
+# REviveSmartCity2
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.0.8.
 
 ## Technologies used
 
+This project is written in Angular 6 using TypeScript.
+The HTML 5 & CSS 3 are from the team that includes students from the REvive Greece Front-End web development, so there is no framework used.
+
+The server API implementation is pending.
 
 ## License
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
